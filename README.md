@@ -15,6 +15,8 @@ The first step in training an object detection model with YOLOv8 is to gather an
 3)Setting Up the Environment:
 Before training the model, it's essential to set up the development environment. YOLOv8 can be implemented using frameworks like Darknet or PyTorch. For this guide, we'll use Darknet, an open-source neural network framework. Ensure that Darknet is installed and configured on your system, along with any necessary dependencies.
 
+![yolo](https://github.com/lithesvar/object_detection_with_yolov8/assets/76431219/7f2e0a93-c7d9-40d9-8e18-ae11d928a10d)
+
 4)Configuration and Training:
 YOLOv8 comes with pre-trained weights on large-scale datasets like COCO (Common Objects in Context), which can be fine-tuned on custom datasets. Start by downloading the pre-trained weights and configuring the YOLOv8 model architecture according to your requirements. This involves adjusting parameters such as the number of classes, input resolution, and training hyperparameters (e.g., learning rate, batch size). Next, initialize the model with pre-trained weights and begin training on your annotated dataset. Monitor the training process, adjusting hyperparameters as needed, and save checkpoints of the model's progress.
 
