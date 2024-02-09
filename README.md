@@ -20,5 +20,12 @@ YOLOv8 comes with pre-trained weights on large-scale datasets like COCO (Common 
 5)Evaluation and Fine-Tuning:
 Once training is complete, evaluate the trained model's performance using validation data or a separate test set. Calculate metrics such as precision, recall, and mean average precision (mAP) to assess the model's accuracy and generalization capabilities. Fine-tune the model by iteratively adjusting hyperparameters, increasing the dataset size, or incorporating data augmentation techniques to improve performance further.
 
+
 6)Deployment and Inference:
 After achieving satisfactory performance, the trained YOLOv8 model can be deployed for real-world applications. This involves integrating the model into software or systems where object detection is required, such as autonomous vehicles, surveillance systems, or robotics platforms. Implement inference pipelines to process input images or video streams, detect objects, and output bounding box predictions along with their class labels.
+
+
+
+Bonous Tip:
+While training the data add some around 10-20 images in traning data which is invalid type of images simply false postive images so
+that yolo will understand things not to be predicated you can find changes in recall by doing this.
